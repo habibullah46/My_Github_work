@@ -33,10 +33,6 @@
             this.txt_ValueTwo = new System.Windows.Forms.TextBox();
             this.txt_Answer = new System.Windows.Forms.TextBox();
             this.cbm_Choice = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +42,10 @@
             this.btn_clear = new System.Windows.Forms.Button();
             this.lbl_last_Operator = new System.Windows.Forms.Label();
             this.btn_History = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,23 +53,26 @@
             // 
             // txt_ValueOne
             // 
-            this.txt_ValueOne.Location = new System.Drawing.Point(436, 113);
+            this.txt_ValueOne.Location = new System.Drawing.Point(388, 90);
+            this.txt_ValueOne.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_ValueOne.Name = "txt_ValueOne";
-            this.txt_ValueOne.Size = new System.Drawing.Size(227, 26);
+            this.txt_ValueOne.Size = new System.Drawing.Size(202, 22);
             this.txt_ValueOne.TabIndex = 0;
             // 
             // txt_ValueTwo
             // 
-            this.txt_ValueTwo.Location = new System.Drawing.Point(436, 175);
+            this.txt_ValueTwo.Location = new System.Drawing.Point(388, 140);
+            this.txt_ValueTwo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_ValueTwo.Name = "txt_ValueTwo";
-            this.txt_ValueTwo.Size = new System.Drawing.Size(227, 26);
+            this.txt_ValueTwo.Size = new System.Drawing.Size(202, 22);
             this.txt_ValueTwo.TabIndex = 1;
             // 
             // txt_Answer
             // 
-            this.txt_Answer.Location = new System.Drawing.Point(436, 291);
+            this.txt_Answer.Location = new System.Drawing.Point(388, 233);
+            this.txt_Answer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_Answer.Name = "txt_Answer";
-            this.txt_Answer.Size = new System.Drawing.Size(227, 26);
+            this.txt_Answer.Size = new System.Drawing.Size(202, 22);
             this.txt_Answer.TabIndex = 2;
             // 
             // cbm_Choice
@@ -80,51 +83,12 @@
             "SUB",
             "MUL",
             "DIVID"});
-            this.cbm_Choice.Location = new System.Drawing.Point(436, 233);
+            this.cbm_Choice.Location = new System.Drawing.Point(388, 186);
+            this.cbm_Choice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbm_Choice.Name = "cbm_Choice";
-            this.cbm_Choice.Size = new System.Drawing.Size(227, 28);
+            this.cbm_Choice.Size = new System.Drawing.Size(202, 24);
             this.cbm_Choice.TabIndex = 3;
             this.cbm_Choice.SelectedIndexChanged += new System.EventHandler(this.cbm_Choice_SelectedIndexChanged);
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(242, 165);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 46);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "ValueTwo";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(242, 223);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(165, 46);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Choice";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(242, 281);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(165, 46);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Answer";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(242, 103);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 46);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "ValueOne";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -133,16 +97,18 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(785, 97);
+            this.panel1.Size = new System.Drawing.Size(698, 78);
             this.panel1.TabIndex = 9;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(196, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(174, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 77);
+            this.pictureBox2.Size = new System.Drawing.Size(89, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -152,9 +118,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(302, 22);
+            this.label1.Location = new System.Drawing.Point(268, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 36);
+            this.label1.Size = new System.Drawing.Size(158, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Calculator";
             // 
@@ -162,17 +128,19 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 407);
+            this.panel2.Location = new System.Drawing.Point(0, 326);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(785, 55);
+            this.panel2.Size = new System.Drawing.Size(698, 44);
             this.panel2.TabIndex = 10;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 103);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 82);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(233, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(207, 214);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -181,17 +149,18 @@
             // 
             this.lbl_error.AutoSize = true;
             this.lbl_error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_error.Location = new System.Drawing.Point(589, 345);
+            this.lbl_error.Location = new System.Drawing.Point(524, 276);
             this.lbl_error.Name = "lbl_error";
-            this.lbl_error.Size = new System.Drawing.Size(0, 20);
+            this.lbl_error.Size = new System.Drawing.Size(0, 16);
             this.lbl_error.TabIndex = 0;
             // 
             // btn_clear
             // 
             this.btn_clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_clear.Location = new System.Drawing.Point(436, 327);
+            this.btn_clear.Location = new System.Drawing.Point(388, 262);
+            this.btn_clear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(107, 38);
+            this.btn_clear.Size = new System.Drawing.Size(95, 30);
             this.btn_clear.TabIndex = 12;
             this.btn_clear.Text = "Clear";
             this.btn_clear.UseVisualStyleBackColor = true;
@@ -200,28 +169,69 @@
             // lbl_last_Operator
             // 
             this.lbl_last_Operator.AutoSize = true;
-            this.lbl_last_Operator.Location = new System.Drawing.Point(12, 384);
+            this.lbl_last_Operator.Location = new System.Drawing.Point(11, 307);
             this.lbl_last_Operator.Name = "lbl_last_Operator";
-            this.lbl_last_Operator.Size = new System.Drawing.Size(111, 20);
+            this.lbl_last_Operator.Size = new System.Drawing.Size(91, 16);
             this.lbl_last_Operator.TabIndex = 13;
             this.lbl_last_Operator.Text = "Last Operator:";
             // 
             // btn_History
             // 
             this.btn_History.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_History.Location = new System.Drawing.Point(664, 372);
+            this.btn_History.Location = new System.Drawing.Point(590, 298);
+            this.btn_History.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_History.Name = "btn_History";
-            this.btn_History.Size = new System.Drawing.Size(92, 29);
+            this.btn_History.Size = new System.Drawing.Size(82, 23);
             this.btn_History.TabIndex = 14;
             this.btn_History.Text = "History";
             this.btn_History.UseVisualStyleBackColor = true;
             this.btn_History.Click += new System.EventHandler(this.btn_History_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(262, 96);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Value One :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(262, 146);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 16);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Value Two : ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(262, 194);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 16);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Choice: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(262, 239);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(57, 16);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Answer :";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 462);
+            this.ClientSize = new System.Drawing.Size(698, 370);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_History);
             this.Controls.Add(this.lbl_last_Operator);
             this.Controls.Add(this.btn_clear);
@@ -229,14 +239,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.cbm_Choice);
             this.Controls.Add(this.txt_Answer);
             this.Controls.Add(this.txt_ValueTwo);
             this.Controls.Add(this.txt_ValueOne);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -256,10 +263,6 @@
         private System.Windows.Forms.TextBox txt_ValueTwo;
         private System.Windows.Forms.TextBox txt_Answer;
         private System.Windows.Forms.ComboBox cbm_Choice;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
@@ -269,6 +272,10 @@
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Label lbl_last_Operator;
         private System.Windows.Forms.Button btn_History;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
