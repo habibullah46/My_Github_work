@@ -14,7 +14,7 @@ namespace new_calculator
     {
         string HistoryMaintain = null;
         List<string> HistoryList = new List<string>();
-
+//changes some fut==
         calculator cal = new calculator();
         int valueOne;
         int valueTwo;
